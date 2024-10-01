@@ -1,0 +1,376 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    María García Gómez | Computer engineer in virtual technologies with specialization in physical simulation based in Badajoz, Spain.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>María García Gómez</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Computer engineer in virtual technologies with specialization in physical simulation based in Badajoz, Spain.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="My Projects">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Corneal Palpation Simulation for Surgeon Training</h3>
+              <p>
+                This project simulates corneal behavior using ANSYS and Unity 3D. It allows medical trainees to interact with a virtual cornea via the Touch X haptic device, providing real-time feedback. 
+              </p>
+              <ul class="work__list">
+                <li>Unity</li>
+                <li>Ansys</li>
+                <li>C#</li>
+                <li>Touch X</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/imariagg/corneal-palpation-simulation" target="_blank" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/imariagg/corneal-palpation-simulation" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Cornea.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+          
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Genetic Algorithm</h3>
+              <p>
+                A genetic algorithm capable of handling various types of variables, such as binary, permutation, and real-valued. It offers a flexible solution for optimization problems, leveraging population evolution, crossover, mutation, and selection to find optimal solutions.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Metaheuristics</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/imariagg/genetic-algorithm.git" target="_blank" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/imariagg/genetic-algorithm.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/algoritmo_genetico.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Hibrid Recommendation System</h3>
+              <p>
+                🛠️ In Progress <br>
+                A hybrid recommendation system based on a real-world project and problem, combining content-based filtering, user-based, and item-based collaborative filtering to provide personalized suggestions.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>System Recommendation</li>
+                <li>Sklearn</li>
+                <li>Pandas</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/imariagg/hybrid-recommendation-system.git" target="_blank" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/imariagg/hybrid-recommendation-system.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/hybrid-system.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Fluid Simulation</h3>
+              <p>
+                A particle-based fluid simulator using VPython, employing methods like Euler integration and SPH to model fluid dynamics. The system exports data in binary format for advanced visualization in programs like RealFlow, enabling the creation of simulation videos.
+              </p>
+              <ul class="work__list">
+                <li>VPython</li>
+                <li>RealFlow</li>
+                <li>SPH Simulation</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/imariagg/fluid-simulation.git" target="_blank" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/imariagg/fluid-simulation.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/fluid-simulation.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Arkanoid created with own Physics Engine</h3>
+              <p>
+                Game created based on the construction of a physics system created from scratch.
+              </p>
+              <ul class="work__list">
+                <li>C++</li>
+                <li>SDL2</li>
+                <li>Physics Engine</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/jaduranfernandez/los-sin-nombre.git" target="_blank" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/jaduranfernandez/los-sin-nombre.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/arkanoid.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Bowling ARFoundation</h3>
+              <p>
+                AR Bowling Game is an augmented reality experience built with Unity and ARFoundation. Players can place a virtual bowling alley on real-world surfaces using their device's camera, interact with pins, and throw the ball with realistic physics. Includes reset and retry options for continuous play.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>Unity</li>
+                <li>ARFoundation</li>
+                <li>Android</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/imariagg/bowling-arfoundation.git" target="_blank" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/imariagg/bowling-arfoundation.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/bowling.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Road To Round The World: Magallanes Edition</h3>
+              <p>
+                Team-created game in Unity.
+              </p>
+              <ul class="work__list">
+                <li>C#</li>
+                <li>Unity</li>
+                <li>Dialogue System</li>
+                <li>Karma System</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://m.youtube.com/watch?fbclid=PAAabkBzp-i5W6Feb2iUkZFIRDVfBqnM1OgNA-F_2d1T1Ix422MmQg6D90154&v=INbUxGNIBhg&feature=youtu.be" class="link__text">
+                  Visit Repository <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/magallanes.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Skills ***** -->
+
+    <section class="skill" id="skills">
+      <div class="row">
+        <h2>Technical Skills</h2>
+        <div class="work__text">
+          <ul class="work__list">
+            <li>Advanced level in languages such as C++, C, C#, Python and Javascript. +5 years of experience </li>
+            <li>Handling of relational and non-relational databases. In addition to SQL. </li>
+            <li>AWS Services</li>
+            <li>Software Agents</li>
+            <li>Prompting Engineering</li>
+            <li>Complex algorithms, data structures, concurrency and real-time problems</li>
+            <li>Classical and Generative Artificial Intelligence</li>
+            <li>Physics Engines such as Unity</li>
+            <li>Augmented Reality such as Vuforia and ARFoundation</li>
+            <li>Agile methodologies such as Scrum</li>
+            <li>Version control with Git, Github and Gitlab</li>
+          </ul>
+
+          
+
+        <div class="skill__logos">
+          <!-- Add logos of the skills or companies you'have worked with. -->
+          <img src="./images/aws.png" class="skill__logo" alt="Company 2" />
+          <img src="./images/python.png" class="skill__logo" alt="Company 3" />
+          <img src="./images/openAiI.png" class="skill__logo" alt="Company 1" />
+          <img src="./images/c++.png" class="skill__logo" alt="Company 1" />
+          <img src="./images/Official_unity_logo.png" class="skill__logo" alt="Company 3" />
+          <img src="./images/git.png" class="skill__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hello! First of all, thank you for wanting to know more about me. I consider myself a computer all-rounder with a lot of energy. I am quite curious and I adapt and learn quite fast. I love working in a team and being able to contribute with my analytical and creative vision to solve all kinds of problems. Right now I am quite excited to contribute with my knowledge in Generative Artificial Intelligence projects and in the different aspects of Applied Artificial Intelligence!
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/maria-garcia-gomez.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a computer engineer able to bring innovative solutions to your projects? or looking for any kind of consultation? or want to ask questions? or have some advice for me or just want to say “Hello 👋” in any case do not hesitate to Let me know. I will do my best to reply back. 😊 The fastest way to reach me is via email.
+
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:imariagarciagomez@outlook.com" class="btn">imariagarciagomez@outlook.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/imariagg/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/mar%C3%ADa-garc%C3%ADa-g%C3%B3mez-jpg/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
